@@ -17,9 +17,12 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/login','LoginController@index');
-
+Route::get('/signin','LoginController@index');
+Route::get('/signup',function(){
+    return view('/signup');
+});
 Route::get('/home',function(){
     return view('home');
 });
+
 
