@@ -38,7 +38,7 @@
         <a href="/signup">Ainda não tem conta? Registre-se</a>
     </div>
     <div class="row pt-1 justify-content-center">
-        <a href="#">Esqueceu a senha?</a>
+        <a href="/recover">Esqueceu a senha?</a>
     </div>
   </div>
 </template>

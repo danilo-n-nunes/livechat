@@ -18,9 +18,15 @@ Route::get('/', function () {
 });
 
 Route::get('/signin','LoginController@index');
+
 Route::get('/signup',function(){
     return view('/signup');
 });
+
+Route::get('/recover',function(){
+    return view('/recoverpass');
+});
+
 Route::get('/home',function(){
     return view('home');
 });
