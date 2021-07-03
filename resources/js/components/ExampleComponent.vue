@@ -3,10 +3,11 @@
         <div class="row justify-content-center">
             <div class="col-md-8">
                 <div class="card">
-                    <div class="card-header">Example Component</div>
+                    <div class="card-header">Estudando Vue</div>
 
                     <div class="card-body">
-                        I'm an example component.
+                        <input type="text" v-model="text">
+                        {{text}}
                     </div>
                 </div>
             </div>
@@ -16,6 +17,11 @@
 
 <script>
     export default {
+        data: () => {
+            return {
+                text: ''
+            }
+        },
         mounted() {
             console.log('Component mounted.')
         }
