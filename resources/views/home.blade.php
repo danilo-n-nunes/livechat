@@ -1,1 +1,9 @@
-<h1>Home</h1>
+@extends('layouts.principal')
+
+@section('content')
+
+<div id="app">
+    <home></home>
+</div>
+
+@stop

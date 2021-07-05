@@ -23,6 +23,7 @@ Vue.component('example-component', require('./components/ExampleComponent.vue').
 Vue.component('sign-in', require('./components/SignIn.vue').default);
 Vue.component('sign-up', require('./components/SignUp.vue').default);
 Vue.component('recover-pass', require('./components/RecoverPass.vue').default);
+Vue.component('home',require('./components/Home.vue').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
